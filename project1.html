@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Piks luser</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #e0f7fa, #fff1f2);
+      color: #1f2937;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 36px;
+      color: black;
+      margin-bottom: 40px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      width: 300px;
+      cursor: pointer;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .caption {
+      padding: 16px;
+    }
+
+    .caption h2 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      color: #222;
+    }
+
+    .caption p {
+      margin: 0;
+      color: #555;
+    }
+    
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Njir ni apaan</h1>
+    <div class="gallery">
+      <div class="card" onclick="location.href='project2.html'">
+        <img src="muach.jpg" alt="Gambar 1" />
+        <div class="caption">
+          <h2>Au gw bikin apaan</h2>
+          <p>Jangan di pencet gambarnya</p>
+        </div>
+      </div>
+      <div class="card" onclick="location.href='project3.html'">
+        <img src="muach2.jpg" alt="Gambar 2" />
+        <div class="caption">
+          <h2>sama ini juga apaan</h2>
+          <p>Jangan di pencet nanti jadi luser</p>
+        </div>
+      </div>
+      <div class="card" onclick="location.href='project4.html'">
+        <img src="muach1.jpg" alt="Gambar 3" />
+        <div class="caption">
+          <h2>klo ini si imut</h2>
+          <p>pencet aja ntar jadi elitis</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    &copy; 2025-2026 klo inget. Wkwkwk
+  </footer>
+</body>
+</html>
